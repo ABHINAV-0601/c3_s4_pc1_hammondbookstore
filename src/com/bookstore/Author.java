@@ -17,7 +17,7 @@ public class Author {
     }
 
     public String toString() {
-        System.out.println("Author Details");
+
         return "Author Name is :"+ authorName + "\nAuthor's Pen Name is :" + authorPenName;
     }
 

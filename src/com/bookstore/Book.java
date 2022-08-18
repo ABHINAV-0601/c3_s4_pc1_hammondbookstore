@@ -44,6 +44,7 @@ public class Book {
         System.out.println("description = " + description);
         System.out.println("price = $" + price);
         System.out.println();
+        System.out.println("Author Details");
         System.out.println(author.toString());
     }
 }
