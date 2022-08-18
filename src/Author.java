@@ -15,5 +15,7 @@ public class Author {
         this.authorPenName = authorPenName;
     }
 
-
+    public String toString() {
+        return "Author Name is :"+ authorName + "Author's Pen Name is :" + authorPenName;
+    }
 }
