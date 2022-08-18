@@ -1,3 +1,4 @@
+package com.bookstore;
 public class Author {
     private String authorName;
     private String authorPenName;
@@ -16,6 +17,8 @@ public class Author {
     }
 
     public String toString() {
-        return "Author Name is :"+ authorName + "Author's Pen Name is :" + authorPenName;
+        System.out.println("Author Details");
+        return "Author Name is :"+ authorName + "\nAuthor's Pen Name is :" + authorPenName;
     }
+
 }

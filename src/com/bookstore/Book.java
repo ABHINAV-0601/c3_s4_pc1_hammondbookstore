@@ -1,11 +1,19 @@
+package com.bookstore;
 public class Book {
     private long isbn;
     private String title;
     private String description;
     private double price;
 
+    Author author;
     public long getIsbn() {
         return isbn;
+    }
+    public Author getAuthor() {
+        return author;
+    }
+    public void setAuthor(Author author) {
+        this.author = author;
     }
     public void setIsbn(long isbn) {
         this.isbn = isbn;
@@ -27,5 +35,15 @@ public class Book {
     }
     public void setPrice(double price) {
         this.price = price;
+    }
+
+    public void display(){
+        System.out.println("Book Details");
+        System.out.println("isbn = " + isbn);
+        System.out.println("title = " + title);
+        System.out.println("description = " + description);
+        System.out.println("price = $" + price);
+        System.out.println();
+        System.out.println(author.toString());
     }
 }
