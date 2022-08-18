@@ -5,7 +5,7 @@ public class Book {
     private String description;
     private double price;
 
-    Author author;
+    private Author author;
     public long getIsbn() {
         return isbn;
     }
@@ -45,6 +45,6 @@ public class Book {
         System.out.println("price = $" + price);
         System.out.println();
         System.out.println("Author Details");
-        System.out.println(author.toString());
+        System.out.println(author);
     }
 }
